@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: white;
+}
+
+
+.img-navbar {
+    width: 100%;
+}
+.shani {
+    height:70px;
+    margin-left: 20px;
+    border:2px solid white;
+    border-radius:50% ;
+    margin-top: -30px;
+    
+}
+
+.font {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    height: 30px;
+    margin-right: 5px;    
+}
+
+.con {
+    display: flex;
+    font-size: 18px;
+}
+
+.con i {
+    border:solid 1px black;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius:50% ;
+}
+
+.con p {
+    border: 1px solid black;
+    padding:4px 8px;
+    border-radius: 30px;
+}
+
+
+
+.tentang {
+    margin-left: 10px;
+}
+
+.verif {
+    display: flex;
+    margin-top: -10px;
+    align-items: center;
+}
+
+.h2 {
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.img-verif {
+    height: 18px;
+    margin-left: 3px;
+}
+
+
+.p-nama {
+    margin-top: -18px;
+    font-size: 14px;
+}
+
+
+.nomor {
+    font-size: 13px;
+    display: flex;
+}
+
+.fontloc {
+    display: flex;
+    align-items: center;
+    margin-top: -10px;
+    font-size:13px;
+}
+
+.fontloc i {
+    margin-right: 5px;
+}
+
+.fontloc p {
+    margin-right: 10px;
+}
+
+
+.fontloc2 {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    margin-top: -20px;
+}
+.fontloc2 p {
+    margin-left: 5px;
+}
+
+.followers {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    height: 20px;
+
+}
+
+.pf {
+    margin-right: 5px;
+    font-weight: 900;
+}
+
+.pp {
+    margin-right: 15px;
+}
+
+.orang {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.divfoto {
+    display: flex;
+    height: 25px;
+    margin-left: 15px;
+}
+
+.foto {
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: -15px;
+}
+.orangp{
+    margin-left: 5px;
+}
+
+.orangp p {
+    font-size: 13px;
+
+}
+
+.headertweet {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-top:-10px;
+}
+
+.h5 {
+    font-weight: 900;
+    font-size: 14px;
+}
+
+
+.garis {
+    width: 50px;
+    height: 3px;
+    background-color:rgba(1, 164, 240, 0.63);
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.tweet1 {
+    display: flex;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.imgtwt1 {
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+
+.twtatas {
+    margin-left: 10px;
+    margin-top: auto;
+    width: 100%;
+}
+
+.twtatas2 {
+    display: flex;
+    align-items: center;
+    height:auto;
+    
+
+}
+
+.veriftwt1 {
+    height: 15px;
+    margin-right: 5px;
+    margin-left: 5px;
+    
+}
+
+.p1twt1 {
+    font-size: 14px;
+    margin-right:auto;
+} 
+
+.p2twt1 {
+    font-size: 14px;
+    font-weight: 800;
+}
+
+.kata {
+    margin-top: -5px;
+}
+
+.pkata {
+    font-size: 13px;
+    margin-top: 0;
+}
+.data {
+    display: flex;
+    box-sizing: border-box;
+    height: 20px;
+    align-items: center;
+
+}
+.data i {
+    font-size: 14px;
+}
+.data p {
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: auto;
+    margin-left: 5px;
+}
+.who {
+    font-size: 16px ;
+    font-weight: 700;
+    margin-left: 10px;
+}
