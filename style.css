@@ -219,6 +219,44 @@ nav {
   }
 }
 
+
+.skills {
+  /* border: 1px solid red; */
+  padding: 1rem;
+}
+
+.skills-content-wrapper {
+  /* border: 1px solid red ; */
+  padding: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+
+.skills-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  padding: 8px;
+  max-width: 200px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.skills-content2 {
+
+}
+
+.skills-content img {
+  width: 70px;
+  margin: 1rem;
+}
+
+
+
+
+
 /* inspiration */
 
 .ins {
