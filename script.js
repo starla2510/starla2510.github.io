@@ -56,7 +56,7 @@ function isiWindahBasudara() {
     igIns.setAttribute('href', 'https://www.instagram.com/windahbasudara/')
     ytIns.setAttribute('href', 'https://www.youtube.com/@WindahBasudara')
     insNama.innerHTML = namaWindah
-    imgbaru.setAttribute('src', 'windah3.jpg')
+    imgbaru.setAttribute('src', 'assets/windah3.jpg')
     pbaru.innerHTML = isiWindah
 }
 
@@ -67,7 +67,7 @@ function isiDeaAfrizal() {
     igIns.setAttribute('href', 'https://www.instagram.com/dea.afrizal/')
     ytIns.setAttribute('href', 'https://www.youtube.com/@deaafrizal')
     insNama.innerHTML = namaDea
-    imgbaru.setAttribute('src', 'dea.jpg')
+    imgbaru.setAttribute('src', 'assets/dea.jpg')
     pbaru.innerHTML = isiDea
 }
 
@@ -78,7 +78,7 @@ function isiSandhikaGalih() {
     igIns.setAttribute('href', 'https://www.instagram.com/sandhikagalih/')
     ytIns.setAttribute('href', 'https://www.youtube.com/@sandhikagalihWPU')
     insNama.innerHTML = namaWpu
-    imgbaru.setAttribute('src', 'sandhika.jpg')
+    imgbaru.setAttribute('src', 'assets/sandhika.jpg')
     pbaru.innerHTML = isiWpu
 }
 
@@ -89,7 +89,7 @@ function isiJKT48() {
     igIns.setAttribute('href', 'https://www.instagram.com/jkt48/')
     ytIns.setAttribute('href', 'https://www.youtube.com/@JKT48')
     insNama.innerHTML = namaJkt
-    imgbaru.setAttribute('src', 'jkt2.png')
+    imgbaru.setAttribute('src', 'assets/jkt2.png')
     pbaru.innerHTML = isiJkt
 }
 
@@ -100,7 +100,7 @@ function isiGuruGembul() {
     igIns.setAttribute('href', 'https://www.youtube.com/@gurugembul')
     ytIns.setAttribute('href', 'https://www.instagram.com/gurugembul/')
     insNama.innerHTML = namaGuru
-    imgbaru.setAttribute('src', 'gurugembul.jpg')
+    imgbaru.setAttribute('src', 'assets/gurugembul.jpg')
     pbaru.innerHTML = isiGuru
 }
 
