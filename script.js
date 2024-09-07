@@ -44,11 +44,20 @@ for (let i = 0; i < btnKenapa.length; i++) {
             return isiJKT48()
         } else if (e.target.classList.contains('knpGurugembul')) {
             return isiGuruGembul()
+        } else if (e.target.classList.contains('knpMarcus')) {
+            return isiMarcus()
         } 
     });
 }
 
-
+function isiMarcus() {
+    const isiMarcus = ('Marcus Aurelius, seorang kaisar Romawi dan salah satu filsuf Stoik paling berpengaruh, telah menjadi tokoh inspirasi saya sejak duduk di bangku SMA. Ketika pertama kali mempelajari filsafat Stoik yang ia ajarkan, saya menemukan cara pandang yang berbeda terhadap kehidupan. Stoikisme, yang menekankan pentingnya ketenangan batin, pengendalian diri, dan penerimaan terhadap hal-hal yang berada di luar kendali kita, memberikan panduan berharga dalam menghadapi berbagai tantangan. Filsafat ini mengajarkan saya untuk tidak terbebani oleh stres, dengan fokus pada bagaimana kita merespons situasi, bukan pada situasi itu sendiri. Dalam kehidupan sehari-hari, pemikiran Marcus Aurelius membantu saya tetap tenang dan berpikir jernih, bahkan dalam kondisi yang sulit. Filosofi ini memberi saya pemahaman lebih dalam tentang kebahagiaan yang sejati, yaitu menerima kehidupan apa adanya dan berusaha menjadi versi terbaik dari diri sendiri.')
+    const namaMarcus = ('Marcus Aurelius')
+    insNama.innerHTML = namaMarcus
+    imgbaru.setAttribute('src', 'assets/marcus.webp')
+    pbaru.innerHTML = isiMarcus
+    igIns.remove()
+}
 
 // windah basudara
 function isiLea() {

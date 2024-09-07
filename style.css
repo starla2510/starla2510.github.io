@@ -228,29 +228,30 @@ nav {
 
 .skills-content-wrapper {
   /* border: 1px solid red ; */
-  padding: 1rem;
+  padding: 1rem;  
   display: flex;
-  justify-content: space-around;
-  
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills-content {
   display: flex;
+  margin: 10px;
   justify-content: space-evenly;
   align-items: center;
   /* border: 1px solid red; */
   padding: 8px;
-  max-width: 200px;
+  max-width: 180px;
   flex-direction: column;
   flex-wrap: wrap;
-}
-
-.skills-content2 {
+  
   
 }
 
 .skills-content img {
   width: 100px;  
+  mix-blend-mode: color-burn;
   margin: 1rem;
 }
 
@@ -268,7 +269,6 @@ nav {
   padding: 1rem 2%;
   display: flex;
   flex-wrap: wrap;
-
   align-items: center;
   justify-content: center;
 }
@@ -460,6 +460,9 @@ nav {
 
   .wrapper {
     flex-wrap: wrap;
+  }
+  .content-about {
+    margin: 0 1.2rem;
   }
   .content-wrapper {
     padding: 0;
