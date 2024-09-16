@@ -223,7 +223,7 @@ nav {
 
 .skills {
   /* border: 1px solid red; */
-  padding: 1rem;
+  padding: 4rem 1rem 1rem ;
 }
 
 .skills-content-wrapper {
@@ -262,7 +262,7 @@ nav {
 /* inspiration */
 
 .ins {
-  padding: 3rem 1rem 3rem;
+  padding: 4rem 1rem 3rem;
 }
 
 .card-wrapper {
@@ -278,6 +278,7 @@ nav {
   margin: 1rem 1rem 2rem;
   justify-content: center;
   flex-direction: column;
+  
 }
 .ins-h2::after {
   content: "";
@@ -293,6 +294,7 @@ nav {
   text-align: center;
   flex-wrap: wrap;
   text-align: center;
+  
 }
 
 .card img {
@@ -371,6 +373,38 @@ nav {
 .pbaru {
   color: #fff;
 }
+
+
+/* spotify */
+.spotify-wrap { 
+  padding-bottom: 2rem;
+}
+
+#track-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Spasi antara item */
+    padding: 1rem;
+    overflow-y: auto; /* Izinkan scrolling pada tampilan mobile */
+    max-height: 400px; /* Atur tinggi maksimum untuk scrolling */
+}
+
+.track-item {
+    flex: 1 1 calc(33.33% - 10px); /* 3 item per baris */
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.track-item img {
+    width: 100%; /* Gambar mengisi lebar item */
+    border-radius: 8px; /* Tambahkan sudut melengkung */
+    max-width: 300px;
+}
+
+.track-item p {
+    margin: 10px 0 0;
+}
+
 
 /* media Querry */
 
@@ -558,6 +592,9 @@ nav {
   .pbaru {
     font-size: 12px;
   }
+  .track-item img {
+    max-width: 250px;
+}
 }
 
 /* @media screen and (max-width: 650px) {
@@ -633,6 +670,9 @@ nav {
     margin: 10px 0;
     padding: 1rem;
   }
+  .skills {
+    padding : 5rem 1rem 1rem
+  }
   .container-image-select {
     width: 200px;
   }
@@ -684,4 +724,10 @@ nav {
   .pbaru {
     font-size: 10px;
   }
+  .track-item img {
+    max-width: 150px;
+}
+.spotify-wrap { 
+  padding-bottom: 3.6rem;
+}
 }
