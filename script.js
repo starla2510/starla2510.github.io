@@ -18,9 +18,6 @@ document.addEventListener("click", function (e) {
   }
 });
 
-// TAILWIND ANJ
-// TAILWIND ANJ
-// TAILWIND ANJ
 
 const btnKenapa = document.getElementsByClassName("btnKenapa");
 const modal = document.querySelector(".modal-body");
