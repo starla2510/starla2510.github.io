@@ -19,7 +19,7 @@ document.addEventListener("click", function (e) {
 });
 
 
-const btnKenapa = document.getElementsByClassName("btnKenapa");
+/*const btnKenapa = document.getElementsByClassName("btnKenapa");
 const modal = document.querySelector(".modal-body");
 let pbaru = document.querySelector(".pbaru");
 let imgbaru = document.querySelector(".imgbaru");
@@ -57,7 +57,7 @@ function isiMarcus() {
 }
 
 // windah basudara
-/*function isiLea() {
+function isiLea() {
   const isiLea =
     "Lea adalah sosok yang paling dekat dengan saya selama masa SMA. Kedekatan kami membawa banyak perubahan positif dalam diri saya. Bagi saya, Raafi, dia adalah orang yang sangat spesial di masa itu, dan saya merasa sangat beruntung bisa mengenalnya. Banyak momen berharga yang kami lalui bersama, yang selalu membuat saya bahagia. Lea memberikan saya banyak pengalaman pertama yang berkesan.Momen paling berkesan bersama Lea adalah saat study tour ke Bali. Saya sangat senang dan menganggap momen itu sebagai salah satu hal paling berharga dalam hidup saya. Meski dari luar Lea terlihat berbeda, saya tahu betul bagaimana hatinya. Lea selalu berusaha untuk menjadi pribadi yang lebih baik demi saya, menunjukkan kepedulian dan perhatian dengan caranya sendiri. Walaupun terkadang Lea terlihat keras, saya tahu itu adalah bentuk perhatiannya.Banyak orang yang tidak bisa melihat sisi terbaik dari dirinya dan hanya menilai dari luar. Namun, apa pun pendapat orang lain tentang Lea atau saya, saya tidak peduli.";
   const namaLea = "Mylsha Alea";
@@ -65,7 +65,7 @@ function isiMarcus() {
   insNama.innerHTML = namaLea;
   imgbaru.setAttribute("src", "assets/lea.jpg");
   pbaru.innerHTML = isiLea;
-} */
+} 
 function isiWindahBasudara() {
   const isiWindah =
     "alasan yang menginspirasi saya tentang Windah Basudara dimulai sejak pandemi COVID-19. Pada saat itu, jumlah subscriber di channelnya sekitar 2 juta. Sayangnya, handphone saya rusak dan saya hanya bisa menonton YouTube melalui TV. Awalnya, saya hanya mampir di channel Windah Basudara. Namun, lama kelamaan saya sangat menyukainya karena sikapnya yang selalu berinteraksi dengan para penontonnya.Selama saya menyukainya, saya sering melihat jadwal livestreaming Windah Basudara di Instagram pribadinya. Setiap kali ada jadwal livestreaming, saya selalu menontonnya, bahkan jika itu berarti harus begadang atau menonton saat tengah malam. Saya sangat terinspirasi oleh semangat pantang menyerah yang luar biasa yang dimiliki oleh Windah Basudara.Melihat perjalanan karirnya, dari seorang pelayan restoran hingga berhasil menabung untuk membeli PC demi keperluan livestreaming dan berjuang untuk menghasilkan konten tanpa kenal lelah, sungguh menginspirasi bagi saya.Dalam kata-kata lain, Windah Basudara telah memberikan contoh semangat pantang menyerah yang luar biasa bagi saya.Saya terinspirasi untuk tidak menyerah dalam menghadapi tantangan dan terus berjuang untuk mencapai impian saya, sebagaimana Windah Basudara yang telah melakukannya.";
@@ -118,7 +118,7 @@ function isiGuruGembul() {
   insNama.innerHTML = namaGuru;
   imgbaru.setAttribute("src", "assets/gurugembul.jpg");
   pbaru.innerHTML = isiGuru;
-}
+}*/
 
 // spotify
 
